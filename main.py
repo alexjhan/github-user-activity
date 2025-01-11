@@ -6,13 +6,13 @@ def main():
         show_menu()
         option = input("Elige una opción (1-5): ")
         if option == "1":
-            extract_blue
+            extract_blue()
         elif option == "2":
-            extract_events
+            extract_events()
         elif option == "3":
-            extract_red
+            extract_red()
         elif option == "4":
-            extract_followers
+            extract_followers()
         elif option == "5":
             print("Saliendo del programa...")
             break

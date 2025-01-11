@@ -1,6 +1,7 @@
 import requests
 
 input_username = input("Enter your username: ")
+
 url_events='https://api.github.com/users/'+input_username+'/events' # URL to get the user's events
 url_red='https://api.github.com/users/'+input_username+'/repos' # URL to get the user's repos
 url_blue='https://api.github.com/users/'+input_username # URL to get the user's profile

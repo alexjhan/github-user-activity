@@ -1,4 +1,6 @@
+
 import requests
+import json
 
 input_username = input("Enter your username: ")
 
@@ -9,13 +11,13 @@ url_followers='https://api.github.com/users/'+input_username+'/followers' # URL 
 
 def extract_events():
     response = requests.get(url_events).json()
-    print(response)
+    print(json.dumps(response, indent=4)) 
 def extract_red():
-    response = requests.get(url_red)
-    print(response.json())
+    response = requests.get(url_red).json()
+    print(json.dumps(response, indent=4))
 def extract_blue():
-    response = requests.get(url_blue)
-    print(response.json())
+    response = requests.get(url_blue).json()
+    print(json.dumps(response, indent=4))
 def extract_followers():    
-    response = requests.get(url_followers)
-    print(response.json())
+    response = requests.get(url_followers).json()
+    print(json.dumps(response, indent=4))

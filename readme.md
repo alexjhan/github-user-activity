@@ -1,36 +1,26 @@
-# 📊 GitHub User Activity
 
-Bienvenido al proyecto **GitHub User Activity**! Este programa te permite monitorear y analizar la actividad de los usuarios en GitHub de manera fácil y eficiente. 🚀
+## 🖥️ Menú del Programa
 
-## 📋 Características
+El programa ofrece las siguientes opciones:
 
-- 🔍 **Búsqueda de usuarios**: Encuentra usuarios de GitHub por su nombre de usuario.
-- 📈 **Estadísticas de actividad**: Visualiza estadísticas detalladas sobre la actividad de los usuarios.
-- 📅 **Historial de commits**: Consulta el historial de commits de un usuario.
-- 🌟 **Repositorios destacados**: Descubre los repositorios más populares de un usuario.
+```python
+```markdown
+```plaintext
+================== MENÚ ==================
+1. Conocer su perfil
+2. Conocer sus eventos
+3. Conocer sus repositorios de GitHub
+4. Conocer sus seguidores
+5. Salir
+=========================================
+```
+```
 
-## 🛠️ Instalación
+Puedes ejecutar y probar el programa con `main.py` desde la consola usando el siguiente comando:
 
-1. Clona este repositorio:
-    ```bash
-    git clone https://github.com/tu-usuario/github-user-activity.git
-    ```
-2. Navega al directorio del proyecto:
-    ```bash
-    cd github-user-activity
-    ```
-3. Instala las dependencias:
-    ```bash
-    npm install
-    ```
-
-## 🚀 Uso
-
-1. Inicia la aplicación:
-    ```bash
-    npm start
-    ```
-2. Abre tu navegador y navega a `http://localhost:3000`.
+```bash
+python main.py
+```
 
 ## 🤝 Contribuciones
 

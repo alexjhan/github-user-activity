@@ -1,6 +1,5 @@
 from tabulate import tabulate
 import requests
-import json
 
 input_username = input("Enter your username: ")
 if input_username == "":
